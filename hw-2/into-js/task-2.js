@@ -18,6 +18,7 @@ function memoize (fn) {
     const key = args.join();
     console.log(key)
   // перевіряємо чи ж ключ key у об'єкті cache якщо є то ми повертаємо  збер результат
+  //  оператор in повертає бульку true якщо властивість міститься в obj або його prop
     if (key in cache) {
       console.log(cache[key])
       return cache[key];

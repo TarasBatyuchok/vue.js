@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
-
-
 body{
   height: 100vh;
   background-image:;
@@ -22,7 +17,7 @@ body{
   justify-content: center;
   align-items: center;
 
-  // забороняє виділяти елементи і при клікі забирає колір
+  // забороняє виділяти елементи і при кліку забирає колір
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     user-select: none;
@@ -108,6 +103,9 @@ body{
   pointer-events: none;
   z-index: 99999999; /* so that it stays on top of all other elements */
 }
+
+
+/* анімації */
 
 
 @-webkit-keyframes pulse {
