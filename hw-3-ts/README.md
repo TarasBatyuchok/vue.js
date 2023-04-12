@@ -1,3 +1,10 @@
+# softonix-hw
+<!-- Hw/T.Batyuchok -->
+
+
+<!-- -------------hw-3--ts--------------------- -->
 <!-- npm i -->
-<!-- npm install -g typescript - if you don't have ts in your laptop->
-<!-- tsc fileNAme.ts -copiling ts in js -->
+<!-- if you don't have ts in your laptop -->
+<!-- npm install -g typescript-->
+<!-- -copiling ts in js  -->
+<!-- tsc fileNAme.ts -->
