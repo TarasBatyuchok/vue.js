@@ -1,0 +1,84 @@
+:root {
+	--primary: rgba(0, 123, 255, .7);
+	--secondary: #007BFF;
+	--dark: #131313;
+	--gray: #6d808c;
+	--white: #fff;
+}
+
+
+body{
+  height: 100vh;
+  background-color:var(--dark);
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  // забороняє виділяти елементи і при кліку забирає колір
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  display: none;
+  opacity: 0;
+  width: 0;
+}
+
+
+
+
+/*Neon*/
+.neon {
+  animation: neonAnim-2 2s alternate-reverse infinite;
+  color: var(--secondary);
+  font-family: Consolas;
+  font-size: 100px;
+}
+@keyframes neonAnim {
+  from {
+      text-shadow:
+        0 0 40px var(--primary),
+        0 0 70px var(--primary),
+        0 0 130px var(--primary);
+    }
+    to {
+      text-shadow:
+        0 0 35px var(--primary),
+        0 0 50px var(--primary),
+        0 0 90px var(--primary);
+    }
+}
+
+@keyframes neonAnim-2 {
+	0%,
+	39%,
+	41%,
+	59%,
+	61%,
+	100% {
+		text-shadow: 
+    var(--primary) 0 0 40px, 
+    var(--secondary) 0 0 70px,
+		var(--secondary) 0 0 130px;
+	}
+	40%,
+	60% {
+		text-shadow: none;
+	}
+}
