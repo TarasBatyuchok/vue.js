@@ -48,7 +48,8 @@ body{
   animation: neonAnim-2 2s alternate-reverse infinite;
   color: var(--secondary);
   font-family: Consolas;
-  font-size: 100px;
+  font-size: calc(70px + 16 * (100vw / 1280));
+  font-weight: 700;
 }
 @keyframes neonAnim {
   from {
