@@ -1,11 +1,11 @@
 <script setup>
 
+
 </script>
 
 <template>
-<div class="bg-red-800">hello</div>
+
 </template>
 
 <style scoped>
-
 </style>
