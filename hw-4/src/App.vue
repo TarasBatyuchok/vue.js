@@ -1,12 +1,11 @@
-<script setup>
-import NavBar from './components/NavBar.vue';
-
-</script>
-
 <template>
-  <NavBar />
+  <div class="bg-beige h-screen">
+    <NavBar />
+  </div>
 </template>
 
-<style scoped>
+<script setup>
+import NavBar from "./components/NavBar.vue";
+</script>
 
-</style>
+<style scoped></style>
