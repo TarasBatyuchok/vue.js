@@ -12,6 +12,8 @@
   hover:shadow-md
   transition 
   duration-300
+  font-Poppins
+  font-500
   ">
     <span class="pr-2">
     <slot></slot>
@@ -25,4 +27,5 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
