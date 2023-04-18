@@ -1,6 +1,6 @@
 <template>
   <header class="container py-6 items-center relative bg-beige text-black md:flex justify-between ">
-    <span class="flex">
+    <span class="navbar__wrap">
     <a href="#" class="logo">
       <!-- logo -->
       <img src="../assets/Logo.png" alt="logo" />
@@ -65,6 +65,9 @@ export default {
   @tailwind utilities;
 
   @layer utilities{
+    .navbar__wrap{
+    @apply flex items-center
+    }
     .mobile-btn{
       @apply lg:hidden
     }
@@ -72,12 +75,12 @@ export default {
       @apply absolute lg:hidden right-6 top-1 cursor-pointer
     }
     .logo{
-      @apply pr-20
+      @apply pr-2 items-center
     }
     .navbar{
-      @apply
+      @apply justify-center items-center
 
-      w-auto w-full bg-red-200  top-14 duration-500 ease-in  my-2
+      w-full bg-red-200  top-14 duration-500 ease-in  my-2
       lg:bg-transparent lg:flex lg:items-center lg:px-0 px-7 lg:pb-0 pb-10 lg:static absolute  
     }
     .navbar__links{

@@ -1,9 +1,8 @@
 <template>
-  <div class="bg-beige h-screen">
+  <div class="bg-beige ">
     <NavBar />
     <main>
-      <SectioPromo/>
-  
+      <SectionPromo/>
     </main>
   </div>
 
@@ -11,7 +10,7 @@
 
 <script setup>
 import NavBar from "./components/NavBar.vue";
-import SectioPromo from "./components/SectioPromo.vue";
+import SectionPromo from "./components/SectionPromo.vue";
 </script>
 
 <style scoped></style>

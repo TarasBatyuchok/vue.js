@@ -10,6 +10,7 @@ module.exports = {
     // },
     lineHeight: {
       '86': '86px',
+      '30': '30px'
     },
     fontFamily: {
       Inter: ['Inter', 'sans-serif'],
@@ -72,8 +73,12 @@ module.exports = {
       xl: '1280px',
       xxl:'1440px',
     },
+    boxSizing: {
+      'border-box': 'border-box',
+    },
 
   },
   plugins: [],
+
 }
 
