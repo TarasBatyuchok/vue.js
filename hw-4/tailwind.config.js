@@ -43,6 +43,7 @@ module.exports = {
     extend: {
       colors:{
         'beige': '#FAF8ED',
+        'yellow': '#FFD482',
         'carrot': '#F66F4D',
         'black': '#2D3134',
         'white': '#FFFFFF',

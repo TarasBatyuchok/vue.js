@@ -59,31 +59,33 @@
     @apply w-full
       sm:w-[400px]
       lg:w-[450px]
-      xl:w-[500px];
+      xl:w-[550px]
+      xl:mt-[13px]
+      xl:ml-[20px];
   }
 
   .promo__title {
     @apply font-Sen  text-4xl text-center font-600 leading-30 max-w-[577px]
-       md:font-700 md:text-4xl my-2  md:leading-30 md:text-left 
+       md:font-700 md:text-4xl mt-[40px]  md:leading-30 md:text-left 
        lg:text-6xl lg:font-700 lg:leading-[70px]
        xl:text-7xl xl:font-700 xl:leading-86;
   }
 
   .promo__text {
-    @apply font-Inter font-400 text-center  max-w-[500px] mx-auto mt-10 mb-10
-      lg:text-left lg:mt-6 lg:mb-0 lg:mx-0;
+    @apply font-Inter font-400 text-center text-[18px]  max-w-[500px] mx-auto mt-[3px] mb-10
+      lg:text-left lg:mt-[27px] lg:mb-0 lg:mx-0;
   }
   .data-bar {
     @apply flex justify-between  relative w-[350px] bg-white mt-[44px] rounded-full pt-[11px] pb-[11px] pl-[28px] pr-[20px] box-border  mx-auto my-10
       md:w-[450px]
-      lg:mt-[30px] lg:mb-0 lg:mx-0 lg:w-[500px]; 
+      lg:mt-[45px] lg:mb-0 lg:mx-0 lg:w-[500px]; 
   }
   .data-bar::after {
     @apply content-[''] bg-gray-200 absolute
       h-[47px] w-[2px] top-[14px] left-[40%];
   }
   .data-bar__title {
-    @apply font-Inter font-500 text-[12px] leading-[18px]
+    @apply font-Inter  font-500 text-[12px] leading-[18px] 
     md:text-[18px];
   }
   .data-bar__wrap {

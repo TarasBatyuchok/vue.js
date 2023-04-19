@@ -97,7 +97,7 @@ export default {
           confused—they’re already grouped by category.
         </p>
       </span>
-      <div class="navigation">
+      <div class="navigation mt-[20px]">
         <div class="button-next" v-on:mouseover="setActiveButton('button1')" v-on:mouseout="resetActiveButton"> 
           <img v-if="activeButton === 'button1'" class="white-left" src="../assets/icons/white-left.png" alt="arrow-right">
           <img v-else  class="black-left" src="../assets/icons/black-left.png" alt="arrow-right">
@@ -106,12 +106,10 @@ export default {
         <div class="button-prev" v-on:mouseover="setActiveButton('button2')" v-on:mouseout="resetActiveButton"> 
           <img v-if="activeButton === 'button2'"  class="black-right" src="../assets/icons/white-right.png" alt="arrow-right">
           <img v-else class="black-right" src="../assets/icons/black-right.png" alt="arrow-right">
-        
-
         </div>
       </div>
       </div>
-      <div class="slider swiper-container " >
+      <div class="slider swiper-container">
           <div class="swiper-wrapper box-border">
             <swiper-slide>
               <div class="slider__item">
@@ -164,7 +162,7 @@ export default {
                 <div class="slider__overlay">
                   <span>Visit</span>
                 </div>
-                <div class="slider__subTitle">Beach</div>
+                <div class="slider__subTitle">Pyramid</div>
               </div>
             </swiper-slide>
             <swiper-slide>
@@ -215,19 +213,19 @@ export default {
 @tailwind utilities;
 
 .categories{
-  @apply mt-[60px]
+  @apply mt-[128px]
 }
 
 .categories__title {
-  @apply font-Inter font-600 text-[56px];
+  @apply font-Inter font-600 text-[56px] mt-[4px];
 }
 
 .categories__decr{
-  @apply flex justify-between
+  @apply flex flex-col md:flex-row justify-between
 }
 
 .categories__text {
-  @apply font-Inter font-400 text-[16px] max-w-[370px] leading-[26px];
+  @apply font-Inter font-400 text-[16px] max-w-[370px] leading-[27px] mt-[9px];
 }
 
 .slider {
@@ -249,7 +247,7 @@ export default {
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-[600] text-[20px] font-Inter;
 }
 .slider__subTitle {
-  @apply mt-0 text-center font-Inter font-500 text-[26px];
+  @apply mt-[10px] text-center font-Inter font-500 text-[26px];
 }
 .navigation{
   @apply flex

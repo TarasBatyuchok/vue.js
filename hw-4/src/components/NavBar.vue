@@ -75,19 +75,24 @@ export default {
       @apply absolute lg:hidden right-6 top-1 cursor-pointer
     }
     .logo{
-      @apply pr-2 items-center
+      @apply pr-[60px] items-center 
+    }
+
+    .logo img{
+      @apply w-[127px] 
     }
     .navbar{
-      @apply justify-center items-center
-
-      w-full bg-red-200  top-14 duration-500 ease-in  my-2
-      lg:bg-transparent lg:flex lg:items-center lg:px-0 px-7 lg:pb-0 pb-10 lg:static absolute  
+      @apply z-[9] justify-center items-center lg:mb-[13px]
+      w-full top-[70px] duration-500 ease-in  my-2
+      lg:bg-transparent lg:flex lg:items-center lg:px-0 px-7 lg:pb-0 pb-10 lg:static absolute
+      bg-white bg-opacity-25  backdrop-filter backdrop-blur-lg border border-white border-opacity-25 rounded-2xl
+       ; 
     }
     .navbar__links{
-      @apply lg:mx-3 lg:my-0 my-6
+      @apply lg:mr-[36px] lg:my-0 my-[10px]
     }
     .navbar__hyperlink{
-      @apply relative font-Poppins font-400 text-base
+      @apply relative font-Poppins font-400 text-[16px]
     }
     .navbar__hyperlink::after{
       @apply content-[''] bg-carrot absolute
