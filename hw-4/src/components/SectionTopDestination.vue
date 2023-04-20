@@ -94,17 +94,14 @@
     @apply font-Inter font-400 text-[16px] text-[#5B5F62] mt-[16px]
   }
   .topDestination__wrap{
-    @apply mt-[28px]  w-[100%] flex justify-center
+    @apply mt-[28px]  w-[100%] flex justify-center flex-wrap
   }
 
-  .topDestination__wrap div{
-    @apply  w-[100px] h-[34px] bg-transparent mr-[14px] text-center  text-black flex justify-center   border-2 
-    rounded-full 
-    border-black  hover:text-white hover:bg-black cursor-pointer
-  }
+
   .topDestination__btn{
+    
     @apply  font-Inter font-400 text-[14px]  px-[10px] py-[20] h-[30px] mr-[14px] border-[1px] border-black text-black bg-transparent rounded-[46px]
-    hover:text-white hover:bg-black hover:border-[1px] 
+    hover:text-white hover:bg-black hover:border-[1px] mt-[10px] xs:mt-[0]
     hover:shadow-black
     hover:shadow-md
     transition 
@@ -112,7 +109,7 @@
   }
   .topDestination__btn_london{
     @apply  font-Inter font-400 text-[14px]  px-[10px] py-[20] h-[30px] mr-[14px] text-white bg-black rounded-[46px]
-    hover:text-black hover:bg-transparent hover:border-[1px] border-black
+    hover:text-black hover:bg-transparent hover:border-[1px] border-black mt-[10px] xs:mt-[0]
     hover:shadow-black
     hover:shadow-md
     transition 
