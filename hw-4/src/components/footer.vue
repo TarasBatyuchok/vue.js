@@ -1,13 +1,13 @@
 <template>
-  <footer class="flex  justify-center mt-[50px]">
+  <footer class="footer">
     <div class="container flex-wrap flex justify-between mb-[79px]">
       <div>
         <a href="#">
-          <img class="h-[35px] w-[98px]" src="../assets/Logo.png" alt="">
-          <p class="font-inter font-normal text-description-color text-[16px] leading-[26px] mt-[15px]">
+          <img class="footer_logo" src="../assets/Logo.png" alt="">
+          <p class="footer__subtext">
             Enjoy the touring <br> with Salty
           </p>
-          <div class="flex gap-[14px] mt-[40px]">
+          <div class="footer__socialWrap ">
             <svg class="socials" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="16" cy="16" r="15.5" stroke="#5B5F62" />
               <path
@@ -72,6 +72,26 @@
 
 <script setup>
 
+
 </script>
 
-<style scoped></style>
+<style scoped>
+@tailwind utilities;
+
+@layer utilities{
+  .footer{
+    @apply flex  justify-center mt-[50px]
+  }
+  .footer_logo{
+    @apply h-[35px] w-[98px]
+  }
+  .footer__subtext{
+    @apply font-Inter font-400 text-gray-500 text-[16px] leading-[26px] mt-[15px]
+  }
+  .footer__socialWrap{
+    @apply flex justify-between mt-[40px]
+  }
+}
+
+
+</style>
