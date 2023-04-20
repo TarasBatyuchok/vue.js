@@ -17,42 +17,42 @@
     </div>
     <div class="mt-[51px]">
       <div class="grid grid-cols-12 grid-rows-2 gap-4">
-        <div class=" bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-01.png')] h-[250px] w-[280px] col-span-3 row-span-1  text-white rounded-lg p-4 text-2xl relative">
+        <div class=" bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-01.png')] h-[250px]  col-span-5 xs:col-span-4 md:col-span-3 row-span-1  text-white rounded-lg p-4 text-2xl relative">
           <img src="../assets/grid/Group.png"/>
           <h5 class="absolute bottom-[30px] text-[20px] font-600">
             Vietnam
             <span class="block text-[14px] font-300">Worefall</span>
           </h5>
         </div>
-        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-03.png')] col-span-3 row-span-2  text-white rounded-lg p-4 text-2xl relative">
+        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-03.png')] col-span-7  xs:col-span-8 md:col-span-4 row-span-1 lg:row-span-2  text-white rounded-lg p-4 text-2xl relative">
           <img src="../assets/grid/blackRating.png"/>
           <h5 class="absolute bottom-[30px] text-[20px] font-600">
             Vietnam
             <span class="block text-[14px] font-300">Worefall</span>
           </h5>
         </div>
-        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-04.png')] col-span-5 row-span-1  text-white rounded-lg p-4 text-2xl relative">
+        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-04.png')] col-span-12 xs:col-span-5 row-span-1  text-white rounded-lg p-4 text-2xl relative">
           <img src="../assets/grid/blackRating.png"/>
           <h5 class="absolute bottom-[30px] text-[20px] font-600">
             Vietnam
             <span class="block text-[14px] font-300">Worefall</span>
           </h5>
         </div>
-        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-02.png')] col-start-1 col-end-4 col-span-3 row-span-1  text-white rounded-lg p-4 text-2xl relative">
+        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-02.png')] col-span-12 row-span-6 xs:col-span-7  xs:row-span-1  md:col-start-1 md:col-end-4 md:col-span-3 md:row-span-1  text-white rounded-lg p-4 text-2xl relative">
           <img src="../assets/grid/Group.png"/>
-          <h5 class="absolute bottom-[30px] text-[20px] font-600">
+          <h5 class="absolute right-4 xs:right-auto bottom-[30px] text-[20px] font-600">
             Vietnam
             <span class="block text-[14px] font-300">Worefall</span>
           </h5>
         </div>
-        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-05.png')] col-span-2 row-span-1  text-white rounded-lg p-4 text-2xl relative">
+        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-05.png')] col-span-12  row-span-6 xs:col-span-5  md:col-span-2 md:row-span-1  text-white rounded-lg p-4 text-2xl relative">
           <img src="../assets/grid/Group.png"/>
-          <h5 class="absolute bottom-[30px] text-[20px] font-600">
+          <h5 class="absolute right-4 xs:right-auto bottom-[30px] text-[20px] font-600">
             Vietnam
             <span class="block text-[14px] font-300">Worefall</span>
           </h5>
         </div>
-        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-06.png')] col-span-3 row-span-1  text-white rounded-lg p-4 text-2xl relative">
+        <div class="w-full h-full bg-cover bg-center bg-no-repeat bg-[url('src/assets/grid/Card-06.png')] col-span-12 row-span-6 xs:col-span-7 md:col-span-7 md:row-span-1 lg:col-span-3 lg:row-span-1  text-white rounded-lg p-4 text-2xl relative">
           <h5 class="absolute bottom-[30px] text-[20px] font-600">
             Vietnam
             <span class="block text-[14px] font-300">Worefall</span>
