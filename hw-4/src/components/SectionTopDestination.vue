@@ -8,11 +8,21 @@
         Sort Briliant reasons Entrada should be your one-stop-shop!
       </h4>
     <div class="topDestination__wrap">
-      <div>London</div>
-      <div>Bangkok</div>
-      <div>England</div>
-      <div>Singapore</div>
-      <div>Italy</div>
+      <button class="topDestination__btn_london">
+        London
+      </button>
+      <button class="topDestination__btn">
+        Bangkok
+      </button>
+      <button class="topDestination__btn">
+        England
+      </button>
+      <button class="topDestination__btn">
+        Singapore
+      </button>
+      <button class="topDestination__btn">
+        Italy
+      </button>
     </div>
     </div>
     <div class="mt-[51px]">
@@ -91,6 +101,22 @@
     @apply  w-[100px] h-[34px] bg-transparent mr-[14px] text-center  text-black flex justify-center   border-2 
     rounded-full 
     border-black  hover:text-white hover:bg-black cursor-pointer
+  }
+  .topDestination__btn{
+    @apply  font-Inter font-400 text-[14px]  px-[10px] py-[20] h-[30px] mr-[14px] border-[1px] border-black text-black bg-transparent rounded-[46px]
+    hover:text-white hover:bg-black hover:border-[1px] 
+    hover:shadow-black
+    hover:shadow-md
+    transition 
+    duration-300
+  }
+  .topDestination__btn_london{
+    @apply  font-Inter font-400 text-[14px]  px-[10px] py-[20] h-[30px] mr-[14px] text-white bg-black rounded-[46px]
+    hover:text-black hover:bg-transparent hover:border-[1px] border-black
+    hover:shadow-black
+    hover:shadow-md
+    transition 
+    duration-300
   }
 }
 

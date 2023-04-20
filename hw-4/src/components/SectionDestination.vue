@@ -310,7 +310,6 @@ export default {
     hover:shadow-md
     transition 
     duration-300
-
   }
 
 
