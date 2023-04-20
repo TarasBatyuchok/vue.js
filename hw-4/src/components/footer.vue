@@ -29,10 +29,10 @@
           </div>
         </a>
       </div>
-      <div class="max-w-[754px] w-[100%] flex justify-between">
+      <div class="footer__wrapp flex-wrap">
         <div>
-          <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Resources</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px]">
+          <h3 class="footer__resources">Resources</h3>
+          <ul class="footer__list">
             <li>Download</li>
             <li>Help Center</li>
             <li>Guide Book</li>
@@ -40,8 +40,8 @@
           </ul>
         </div>
         <div>
-          <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Travellers</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px]">
+          <h3 class="footer__travellers">Travellers</h3>
+          <ul class="footer__list">
             <li>Why Travellers</li>
             <li>Enterprice</li>
             <li>Customer Stories</li>
@@ -49,8 +49,8 @@
           </ul>
         </div>
         <div>
-          <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Company</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px]">
+          <h3 class="footer__company">Company</h3>
+          <ul class="footer__list">
             <li>Travelling</li>
             <li>About Locato</li>
             <li>Success</li>
@@ -58,8 +58,8 @@
           </ul>
         </div>
         <div>
-          <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Get App</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px] tracking-[-0.4px]">
+          <h3 class="footer__get-app">Get App</h3>
+          <ul class="footer__list">
             <li>App Store</li>
             <li>Google Play Store</li>
           </ul>
@@ -86,10 +86,29 @@
     @apply h-[35px] w-[98px]
   }
   .footer__subtext{
-    @apply font-Inter font-400 text-gray-500 text-[16px] leading-[26px] mt-[15px]
+    @apply text-gray-500 text-[16px] leading-[26px] mt-[15px] font-Inter font-400 
   }
   .footer__socialWrap{
     @apply flex justify-between mt-[40px]
+  }
+  .footer__wrapp{
+    @apply flex justify-between max-w-[754px] w-[100%] flex-wrap
+  }
+  .footer__resources{
+    @apply font-Inter font-400 text-gray-800 text-[18px] leading-[18px] mt-[6px]
+  }
+  .footer__travellers{
+    @apply font-Inter font-400 text-gray-800 text-[18px] leading-[18px] mt-[6px]
+  }
+  .footer__company{
+    @apply font-Inter font-400 text-gray-800 text-[18px] leading-[18px] mt-[6px]
+  }
+  .footer__get-app{
+    @apply font-Inter font-400 text-gray-800 text-[18px] leading-[18px] mt-[6px]
+  }
+
+  .footer__list{
+    @apply mt-[25px] text-[#676A6C] flex flex-col gap-[10px] tracking-[-0.4px]
   }
 }
 
