@@ -1,7 +1,6 @@
-
 import { createRouter, createWebHistory } from 'vue-router'
 import Contacts from '@/views/Contacts.vue'
-import UpsertContact from '../views/UpsertContact.vue'
+import UpsertContact from '@/views/UpsertContact.vue'
 import { useContactsStore } from '@/store'
 import { storeToRefs } from 'pinia'
 

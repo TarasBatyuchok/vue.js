@@ -1,9 +1,5 @@
 <template>
-  <div class="max-w-[1440px] p-6 mx-auto">
+  <div class="max-w-[1440px] mx-auto p-6">
     <RouterView />
   </div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
